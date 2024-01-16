@@ -157,3 +157,24 @@ header{
     padding: 10px;
     font-size: 30px;
 }
+/* Gallery Styles */
+.gallery-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.single-gallery{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    flex-basis: 400px;
+}
+.single-gallery img{
+    width: 70%;
+    margin: 0 auto;
+}
