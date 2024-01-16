@@ -19,4 +19,8 @@
     .banner-image-container{
         width: 100%;
     }
+    /* Products */
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

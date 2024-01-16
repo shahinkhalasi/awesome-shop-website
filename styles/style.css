@@ -78,6 +78,7 @@ header{
 }
 .banner-image-container{
     width: 50%;
+    position: relative;
 }
 .banner-image-container img{
     width: 100%;
@@ -111,4 +112,48 @@ header{
     /* color: white; */
     border: 2px solid #e893cf;
     border-radius: 5px;
+}
+.discount{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(128, 128, 16);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 65%;
+    bottom: 70%;
+    font-weight: 700;
+}
+/* Product Styles */
+.product-section{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.single-product{
+    padding: 15px;
+    background-color: #e6e9eb;
+    border-radius: 5px;
+}
+.single-product img{
+    width: 70%;
+    margin: 0 auto;
+}
+.heading-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    background-color: #e893cf;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
 }
