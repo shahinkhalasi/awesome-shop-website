@@ -1,5 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Poppins", sans-serif;
+}
+/* NavBar Style Starts Here */
+header{
+    background-color: #9376e0;
+}
+.header-section{
+    max-width: 1250px;
+    /* background-color: red; */
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+.nav-container{
+    /* border: 2px solid black; */
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+.nav-container img{
+    width: 90px;
+}
+.nav-container p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.special{
+    color: #e893cf;
+    font-weight: 900;
+}
+.items-container{
+    /* border: 2px solid yellowgreen; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.login-button{
+    padding: 10px 20px;
+    background-color:  #e893cf;
+    border-radius: 5px;
+}
+.items-container .login-button a{
+    color: black;
+}
+/* Banner Section Styles */
+.banner-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #e6e9eb;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.banner-image-container{
+    width: 50%;
+}
+.banner-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text-container h1, p, span{
+    font-size: 45px;
+}
+.banner-heading{
+    background: linear-gradient(to bottom, #e893cf, #9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+}
+#collections{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    font-weight: 700;
+}
+.fa-brands{
+    font-size: 45px;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.common-button{
+    padding: 10px 20px;
+    /* color: white; */
+    border: 2px solid #e893cf;
+    border-radius: 5px;
 }

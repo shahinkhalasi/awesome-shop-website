@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+    .header-section{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .items-container{
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 20px;
+    }
+    .banner-section{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 15px;
+    }
+    .text-container{
+        width: 100%;
+    }
+    .banner-image-container{
+        width: 100%;
+    }
+}
